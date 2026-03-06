@@ -6,5 +6,4 @@ module top_module (
     always@(posedge clk)begin
         q <= (reset)? 4'd0: q + 1'd1;
     end
-    
 endmodule

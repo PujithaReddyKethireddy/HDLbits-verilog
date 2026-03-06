@@ -9,5 +9,4 @@ module top_module (
         else
             q <= (q == 4'd9)? 4'd0: q + 1'd1;        
     end
-    
 endmodule
